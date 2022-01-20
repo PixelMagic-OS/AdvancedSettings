@@ -34,10 +34,14 @@
     
     <!-- Magic -->
     <string name="advancedsettings_title">Magic</string>
-    <string name="advancedsettings_title_summary">Magic 111</string>
+    <string name="advancedsettings_title_summary">Advanced settings</string>
     
     <!-- Weather -->
     <string name="weather_settings_title">Weather settings</string>
     <string name="weather_settings_summary">Setup icon pack and weather service</string>
+
+     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Game space</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
     
 </resources>
