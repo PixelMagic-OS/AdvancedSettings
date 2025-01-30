@@ -16,8 +16,10 @@
 
 package com.pm.settings.fragments.misc;
 
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.os.Bundle;
@@ -40,6 +42,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.android.internal.util.pm.OmniJawsClient;
 
 import java.util.ArrayList;
 import java.util.List;
