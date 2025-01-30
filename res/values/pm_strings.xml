@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014-2022 BlissRoms Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Units -->
+    <string name="unit_seconds">s</string>
+    <string name="unit_milliseconds">ms</string>
+    <string name="unit_pixels">dp</string>
+
+    <!-- General strings -->
+    <string name="default_string">Default</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="hidden_string">Hidden</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+
+    <!-- Categories -->
+    <string name="advancedsettings_animation_title">Animations</string>
+    <string name="advancedsettings_buttons_title">Buttons</string>
+    <string name="advancedsettings_gestures_title">Gestures</string>
+    <string name="advancedsettings_lockscreen_title">Lock screen</string>
+    <string name="advancedsettings_misc_title">Miscellaneous</string>
+    <string name="advancedsettings_navigation_title">Navigation</string>
+    <string name="advancedsettings_notifications_title">Notifications</string>
+    <string name="advancedsettings_powermenu_title">Power menu</string>
+    <string name="advancedsettings_quicksettings_title">Quick settings</string>
+    <string name="advancedsettings_status_bar_title">Status bar</string>
+    <string name="advancedsettings_themes_title">Themes</string>
+    
+    <!-- Magic -->
+    <string name="advancedsettings_title">Magic</string>
+    <string name="advancedsettings_title_summary">Magic 111</string>
+
+</resources>
