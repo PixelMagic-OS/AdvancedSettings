@@ -37,11 +37,11 @@
         android:icon="@drawable/ic_pm_lockscreen" />
 
     <!-- Notifications -->
-    <!--<Preference
+    <Preference
         android:key="notifications_category"
-        android:title="@string/pm_notifications_title"
+        android:title="@string/advancedsettings_notifications_title"
         android:fragment="com.pm.settings.fragments.notification.Notification"
-        android:icon="@drawable/ic_pm_notifications" /> -->
+        android:icon="@drawable/ic_pm_notifications" />
 
     <!-- Power Menu -->
     <!--<Preference

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 PixelMagic Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/advancedsettings_notifications_title">
+
+    <PreferenceCategory
+        android:key="heads_up"
+        android:title="@string/advancedsettings_heads_up_title">
+
+        <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:icon="@drawable/ic_headsup"
+            android:title="@string/notification_heads_up_title"
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:icon="@drawable/ic_headsup_sleep"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false"
+            android:dependency="heads_up_notifications_enabled" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
