@@ -30,11 +30,11 @@
         android:icon="@drawable/ic_settings_gestures" /> -->
 
     <!-- Lock Screen -->
-    <!--<Preference
+    <Preference
         android:key="lockscreen_category"
-        android:title="@string/pm_lockscreen_title"
-        android:fragment="com.pm.settings.fragments.lockscreen.Lockscreen"
-        android:icon="@drawable/ic_pm_lockscreen" /> -->
+        android:title="@string/advancedsettings_lockscreen_title"
+        android:fragment="com.pm.settings.fragments.lockscreen.LockScreen"
+        android:icon="@drawable/ic_pm_lockscreen" />
 
     <!-- Notifications -->
     <!--<Preference

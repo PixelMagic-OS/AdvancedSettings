@@ -31,6 +31,7 @@
     <string name="advancedsettings_quicksettings_title">Quick settings</string>
     <string name="advancedsettings_status_bar_title">Status bar</string>
     <string name="advancedsettings_themes_title">Themes</string>
+    <string name="advancedsettings_udfps_title">UDFPS</string>
     
     <!-- Magic -->
     <string name="advancedsettings_title">Magic</string>
@@ -43,5 +44,9 @@
      <!-- Gaming mode -->
     <string name="gaming_mode_title">Game space</string>
     <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+
+    <!-- UDFPS settings -->
+    <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
     
 </resources>

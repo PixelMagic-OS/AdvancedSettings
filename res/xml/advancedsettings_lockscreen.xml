@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 PixelMagic Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/advancedsettings_lockscreen_title">
+
+    <PreferenceCategory
+        android:key="udfps_category"
+        android:title="@string/advancedsettings_udfps_title">
+
+        <Preference
+            android:key="udfps_recognizing_animation_preview"
+            android:icon="@drawable/ic_fp_selector"
+            android:title="@string/udfps_recog_animation_effect_title"
+            android:summary="@string/udfps_recog_animation_effect_summary"
+            android:fragment="com.pm.settings.fragments.lockscreen.UdfpsAnimation" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
