@@ -27,6 +27,13 @@
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="false"
             android:dependency="heads_up_notifications_enabled" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:icon="@drawable/ic_bell_ring"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
