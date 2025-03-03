@@ -64,11 +64,11 @@
         android:icon="@drawable/ic_pm_powermenu" /> -->
 
     <!-- Quick Settings panel -->
-    <!--<Preference
+    <Preference
         android:key="quicksettings_category"
         android:title="@string/pm_quicksettings_title"
         android:fragment="com.pm.settings.fragments.qs.QuickSettings"
-        android:icon="@drawable/ic_pm_quicksettings" /> -->
+        android:icon="@drawable/ic_pm_quicksettings" />
 
     <!-- Status bar -->
     <!--<Preference

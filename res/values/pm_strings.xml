@@ -28,7 +28,7 @@
     <string name="advancedsettings_navigation_title">Navigation</string>
     <string name="advancedsettings_notifications_title">Notifications</string>
     <string name="advancedsettings_powermenu_title">Power menu</string>
-    <string name="advancedsettings_quicksettings_title">Quick settings</string>
+    <string name="advancedsettings_qs_title">Quick settings</string>
     <string name="advancedsettings_status_bar_title">Status bar</string>
     <string name="advancedsettings_themes_title">Themes</string>
     <string name="advancedsettings_udfps_title">UDFPS</string>
