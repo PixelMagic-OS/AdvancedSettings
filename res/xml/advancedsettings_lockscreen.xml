@@ -21,5 +21,17 @@
             android:fragment="com.pm.settings.fragments.lockscreen.UdfpsAnimation" />
 
     </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="qs_lockscreen_category"
+        android:title="@string/advancedsettings_qs_title">
+    
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/disable_qs_title"
+            android:summary="@string/disable_qs_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
