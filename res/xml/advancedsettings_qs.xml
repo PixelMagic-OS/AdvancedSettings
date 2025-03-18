@@ -10,9 +10,16 @@
     android:title="@string/advancedsettings_qs_title">
 
     <PreferenceCategory
-        android:key="_category"
-        android:title="@string/_title">
+        android:key="qs_gestures_category"
+        android:title="@string/qs_gestures_title">
 
+    <ListPreference
+               android:key="qs_quick_pulldown"
+               android:title="@string/qs_quick_pulldown"
+               android:entries="@array/quick_pulldown_entries"
+               android:entryValues="@array/quick_pulldown_values"
+               android:defaultValue="0" />
+    
     </PreferenceCategory>
 
 </PreferenceScreen>

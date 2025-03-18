@@ -66,7 +66,7 @@
     <!-- Quick Settings panel -->
     <Preference
         android:key="quicksettings_category"
-        android:title="@string/pm_quicksettings_title"
+        android:title="@string/advancedsettings_qs_title"
         android:fragment="com.pm.settings.fragments.qs.QuickSettings"
         android:icon="@drawable/ic_pm_quicksettings" />
 

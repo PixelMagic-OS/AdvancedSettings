@@ -33,6 +33,7 @@
     <string name="advancedsettings_themes_title">Themes</string>
     <string name="advancedsettings_udfps_title">UDFPS</string>
     <string name="advancedsettings_heads_up_title">Heads up</string>
+    <string name="qs_gestures_title">QS Gestures</string>
     
     <!-- Magic -->
     <string name="advancedsettings_title">Magic</string>
@@ -61,9 +62,15 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Annoying notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-    
+
     <!-- Sidebar -->
     <string name="sidebar_title">Sidebar</string>
     <string name="sidebar_summary">Quickly open apps in a floating window</string>
+
+    <!-- Quick QS pulldown -->
+     <string name="qs_quick_pulldown">Quick QS pulldown</string>
+     <string name="quick_pulldown_none">Disabled</string>
+     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
+     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
     
 </resources>
